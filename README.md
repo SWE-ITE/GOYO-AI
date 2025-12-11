@@ -272,6 +272,7 @@ The significant performance gap can be attributed to the architectural differenc
 ### Qualitative Analysis: Confusion Matrix & Limitation
 
 To verify the model's reliability, we analyzed the ‘Confusion Matrix’ to understand the decision boundaries between classes.
+
 <img width="588" height="489" alt="KakaoTalk_Photo_2025-12-11-13-02-55" src="https://github.com/user-attachments/assets/72153b0c-c643-47a0-a7ac-6bdc1861e10e" />
 
 
