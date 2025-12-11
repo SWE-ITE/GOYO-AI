@@ -35,7 +35,7 @@ We constructed a dataset by aggregating high-quality samples from multiple verif
 ### Spectral Analysis & Validation
 To validate the viability of our classification model, we analyzed the spectral signatures of the some collected data.
 
-<img width="522" height="400" alt="image" src="https://github.com/user-attachments/assets/3faabb3d-781f-4242-9bc8-ed8590bd2418" />
+<img width="585" height="417" alt="KakaoTalk_Photo_2025-12-11-13-02-35" src="https://github.com/user-attachments/assets/b4b3e2a4-a48e-4174-876e-84a22eaa2be0" />
 
 
 As illustrated in above picture, our dataset exhibits clear distinctions that our fine-tuned model can learn:
@@ -248,7 +248,7 @@ For valid signals passing the VAD gate, we applied a Spatio-Temporal Consistency
 ### Comparative Experiment Setup
 To determine the optimal backbone for our real-time ANC system, we implemented and evaluated two candidate models: YAMNet (MobileNetV1-based) and PANNs (Cnn14-based). Both models were fine-tuned under identical conditions using our custom dataset, and their performance was measured across four key engineering metrics: Accuracy, Latency, Model Parameters, and Storage Size.
 #### Quantitative Results & Analysis
-<img width="790" height="516" alt="image" src="https://github.com/user-attachments/assets/517e1227-3ac0-4d18-aa95-a8b70207f16c" />
+<img width="632" height="408" alt="KakaoTalk_Photo_2025-12-11-13-02-52" src="https://github.com/user-attachments/assets/4f535026-bf6d-4f5d-8361-1fc755de4b58" />
 
 As illustrated Performance Benchmark, the experimental results clearly demonstrate the trade-offs between the two architectures.
 
@@ -272,7 +272,8 @@ The significant performance gap can be attributed to the architectural differenc
 ### Qualitative Analysis: Confusion Matrix & Limitation
 
 To verify the model's reliability, we analyzed the ‘Confusion Matrix’ to understand the decision boundaries between classes.
-<img width="624" height="517" alt="image" src="https://github.com/user-attachments/assets/949a85ae-3d6d-4f0f-8bb2-980781f39364" />
+<img width="588" height="489" alt="KakaoTalk_Photo_2025-12-11-13-02-55" src="https://github.com/user-attachments/assets/72153b0c-c643-47a0-a7ac-6bdc1861e10e" />
+
 
 **High Safety Assurance (Non-target Class):** The most critical requirement for our system is safety, preventing false triggers on human speech or  ambient sounds. The model achieved a high accuracy of 89.7% for the 'Others' class. This explains a robust capability to distinguish essential environmental sounds from target noise.
 
